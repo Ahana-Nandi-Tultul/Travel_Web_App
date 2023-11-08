@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import SocialLogin from '../../components/SocialLogin';
 
 
-const Login = () => {
+const Signup = () => {
     const [showPassword, setShowPassword] = useState(false);
     const {
         register,
@@ -15,10 +15,9 @@ const Login = () => {
       } = useForm();
       const onSubmit = (data) =>{}
 
-
     return (
         <div className="hero min-h-screen">
-        <div className="hero-content flex-col lg:flex-row">
+        <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="text-center lg:text-left">
                 <img src={image1} alt="" />
             </div>
@@ -26,17 +25,26 @@ const Login = () => {
             <form onSubmit={handleSubmit(onSubmit)} className="card-body pb-0">
                 <h1 className="text-3xl text-center font-bold">Please Login!</h1>
                 <div className="form-control">
-                <label className="label">
-                    <span className='label-text'>Email</span>
-                </label>
-                <input type="email" placeholder="email" className="input input-bordered"
+                    <label className="label">
+                        <span className='label-text'>User Name*</span>
+                    </label>
+                    <input type="name" placeholder="name" className="input input-bordered"
 
-                {...register("email", { required: true })} required/>
-                 {errors.name && <span>Name field is required</span>}
+                    {...register("name", { required: true })} required/>
+                    {errors.name && <span>Name field is required</span>}
                 </div>
                 <div className="form-control">
                     <label className="label">
-                        <span className='label-text'>Password</span>
+                        <span className='label-text'>Email*</span>
+                    </label>
+                    <input type="email" placeholder="email" className="input input-bordered"
+
+                    {...register("email", { required: true })} required/>
+                    {errors.name && <span>Name field is required</span>}
+                </div>
+                <div className="form-control">
+                    <label className="label">
+                        <span className='label-text'>Password*</span>
                     </label>
                     <div className="relative">
                         <input
@@ -54,10 +62,10 @@ const Login = () => {
                     {errors.password && <span>Name field is required</span>}
                 </div>
                 <div className="form-control mt-6">
-                <input type="submit" value="Login" className="btn bg-[#ff4d4d] text-white"/>
+                <input type="submit" value="Sign Up" className="btn bg-[#ff4d4d] text-white"/>
                 </div>
-                <p><small>New to TalkTime? Please 
-                <Link className='text-[#ff4d4d]' to="/signup"> Sign Up</Link></small></p>
+                <p><small>Already have an account? Please 
+                <Link className='text-[#ff4d4d]' to="/login"> Log in</Link></small></p>
                 <SocialLogin></SocialLogin>
             </form>
             </div>
@@ -66,4 +74,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Signup;
