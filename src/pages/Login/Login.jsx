@@ -32,7 +32,7 @@ const Login = () => {
                 <input type="email" placeholder="email" className="input input-bordered"
 
                 {...register("email", { required: true })} required/>
-                 {errors.name && <span>Name field is required</span>}
+                 {errors.email && <span>Email field is required</span>}
                 </div>
                 <div className="form-control">
                     <label className="label">
