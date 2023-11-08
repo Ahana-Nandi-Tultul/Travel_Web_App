@@ -31,8 +31,27 @@ const AuthProvider = ({children}) => {
 
     useEffect(() => {
         const unsubscribe = onAuthStateChanged(auth, currentUser => {
-            setLoading(false);
-            setUser(currentUser);
+            if(currentUser){
+                const loggedUser = {email: currentUser?.email};
+                    fetch('http://localhost:3000/jwt', {
+                        method: 'POST',
+                        headers: {
+                            'content-type' : 'application/json'
+                        },
+                        body: JSON.stringify(loggedUser)
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        // console.log(data)
+                        localStorage.setItem('travily-access-token', data?.token);
+                        setLoading(false);
+                        setUser(currentUser);
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    })
+                }
+                setLoading(false);
         });
 
         return () => unsubscribe();

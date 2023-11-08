@@ -1,19 +1,44 @@
 import { useForm } from 'react-hook-form';
 import image1 from '../../assets/authentication.jpeg'
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import SocialLogin from '../../components/SocialLogin';
+import { AuthContext } from '../../providers/AuthProviders';
+import Swal from 'sweetalert2';
 
 
 const Login = () => {
     const [showPassword, setShowPassword] = useState(false);
+    const {login} = useContext(AuthContext);
     const {
         register,
         handleSubmit,
         formState: { errors }
       } = useForm();
-      const onSubmit = (data) =>{}
+      const onSubmit = (data) =>{
+        login(data.email, data.password)
+        .then(result => {
+            const loggedUser = result.user;
+            console.log(loggedUser)
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Successfully! You have logged in your account.',
+                showConfirmButton: false,
+                timer: 1500
+              });
+        })
+        .catch(error => {
+            console.log(error)
+            Swal.fire({
+                title: 'Error!',
+                text: `${error?.message}`,
+                icon: 'error',
+                confirmButtonText: 'Ok'
+              })
+        })
+      }
 
 
     return (
@@ -27,7 +52,7 @@ const Login = () => {
                 <h1 className="text-3xl text-center font-bold">Please Login!</h1>
                 <div className="form-control">
                 <label className="label">
-                    <span className='label-text'>Email</span>
+                    <span className='label-text'>Email*</span>
                 </label>
                 <input type="email" placeholder="email" className="input input-bordered"
 
@@ -36,7 +61,7 @@ const Login = () => {
                 </div>
                 <div className="form-control">
                     <label className="label">
-                        <span className='label-text'>Password</span>
+                        <span className='label-text'>Password*</span>
                     </label>
                     <div className="relative">
                         <input
@@ -56,10 +81,10 @@ const Login = () => {
                 <div className="form-control mt-6">
                 <input type="submit" value="Login" className="btn bg-[#ff4d4d] text-white"/>
                 </div>
-                <p><small>New to TalkTime? Please 
+                <p><small>New to Travily? Please 
                 <Link className='text-[#ff4d4d]' to="/signup"> Sign Up</Link></small></p>
-                <SocialLogin></SocialLogin>
             </form>
+                <SocialLogin></SocialLogin>
             </div>
         </div>
     </div>

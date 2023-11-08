@@ -42,6 +42,35 @@ const Signup = () => {
                         confirmButtonText: 'Sorry!!'
                       })
                 })
+
+                const newUser = {
+                    username: data.name,
+                    email: data.email,
+                    password: data.password,
+                    role: 'customer'
+                };
+
+                fetch('http://localhost:3000/users' ,{
+                method: 'POST',
+                headers: {
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify(newUser)
+                })
+                .then(res => res.json())
+                .then(data => {
+                    console.log(data)
+                    if(data.insertedId){
+                        Swal.fire({
+                            position: 'top-end',
+                            icon: 'success',
+                            title: 'Successfully! You have created an account.',
+                            showConfirmButton: false,
+                            timer: 1500
+                        })
+                    }
+                })
+
             })
             .catch(error =>
             {
@@ -63,7 +92,7 @@ const Signup = () => {
             </div>
             <div className='card flex-shrink-0 w-full max-w-sm shadow-2xl'>
             <form onSubmit={handleSubmit(onSubmit)} className="card-body pb-0">
-                <h1 className="text-3xl text-center font-bold">Please Login!</h1>
+                <h1 className="text-3xl text-center font-bold">Please Sign Up!</h1>
                 <div className="form-control">
                     <label className="label">
                         <span className='label-text'>User Name*</span>
