@@ -2,8 +2,17 @@ import React from 'react';
 import image1 from '../../../assets/Banner/banner_3.jpg';
 import image2 from '../../../assets/Banner/banner_1.jpg';
 import './Banner.css';
+import { useForm } from 'react-hook-form';
 
 const Banner = () => {
+    const {
+        register,
+        handleSubmit,
+        formState: { errors }
+      } = useForm();
+      const onSubmit = (data) =>{
+        console.log(data);
+      }
     return (
         <>
             <div className='pt-10 bg-blue-900 w-full relative'>
@@ -26,34 +35,44 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-4/5 mx-auto bg-white absolute z-50 top-[390px] left-1/2 transform -translate-x-1/2 p-4 rounded-lg'>
-                <div className='grid grid-cols-1 md:grid-cols-5 items-end'>
-                    <div className="form-control w-fulll mr-2">
-                        <label className="label">
-                            <span className="label-text banner_h font-semibold text-black text-lg">Destination</span>
-                        </label>
-                        <input type="text" placeholder="Where To Go" className="input input-bordered w-full" />
+            <div className='w-4/5 mx-auto bg-white md:absolute z-50 md:top-[450px] md:left-1/2 md:transform md:-translate-x-1/2 p-4 rounded-lg'>
+                <form onSubmit={handleSubmit(onSubmit)} >
+                    <div className='grid grid-cols-1 md:grid-cols-5 items-end'>
+                        <div className="form-control w-fulll mr-2">
+                            <label className="label">
+                                <span className="label-text banner_h font-semibold text-black text-lg">Destination</span>
+                            </label>
+                            <input type="text" placeholder="Where To Go" name="destination" className="input input-bordered w-full" 
+                            {...register("destination", { required: true })}/>
+                             {errors.destination && <span className='text-red-600'>Destination field is required</span>}
+                        </div>
+                        <div className="form-control w-full mr-2">
+                            <label className="label">
+                                <span className="label-text banner_h font-semibold text-black text-lg">Type</span>
+                            </label>
+                            <input type="text" placeholder="Activity" className="input input-bordered w-full" name="type"
+                             {...register("type", { required: true })}/>
+                              {errors.type && <span className='text-red-600'>Type field is required</span>}
+                        </div>
+                        <div className="form-control w-full mr-2">
+                            <label className="label">
+                                <span className="label-text banner_h font-semibold text-black text-lg">When</span>
+                            </label>
+                            <input type="date" placeholder="Date" className="input input-bordered w-full" name="date"
+                            {...register("date", { required: true })} />
+                             {errors.date && <span className='text-red-600'>Date field is required</span>}
+                        </div>
+                        <div className="form-control w-full mr-2">
+                            <label className="label">
+                                <span className="label-text banner_h font-semibold text-black text-lg">Guests</span>
+                            </label>
+                            <input type="text" placeholder="0" className="input input-bordered" name="guests"
+                            {...register("guests", { required: true })}/>
+                             {errors.guests && <span className='text-red-600'>Guests field is required</span>}
+                        </div>
+                        <input type="submit" className="btn btn-warning mt-2" value="Search"/>
                     </div>
-                    <div className="form-control w-full mr-2">
-                        <label className="label">
-                            <span className="label-text banner_h font-semibold text-black text-lg">Type</span>
-                        </label>
-                        <input type="text" placeholder="Activity" className="input input-bordered w-full" />
-                    </div>
-                    <div className="form-control w-full mr-2">
-                        <label className="label">
-                            <span className="label-text banner_h font-semibold text-black text-lg">When</span>
-                        </label>
-                        <input type="date" placeholder="Date" className="input input-bordered w-full" />
-                    </div>
-                    <div className="form-control w-full mr-2">
-                        <label className="label">
-                            <span className="label-text banner_h font-semibold text-black text-lg">Guests</span>
-                        </label>
-                        <input type="text" placeholder="0" className="input input-bordered" />
-                    </div>
-                    <input type="text" className="btn btn-warning" value="Search"/>
-                </div>
+                </form>
             </div>
         </>
     );
