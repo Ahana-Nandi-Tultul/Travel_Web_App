@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import Navber from "../shared/Navber";
+import Navber from "../shared/Navber/Navber";
 
 const Main = () => {
     return (
