@@ -1,0 +1,39 @@
+[
+    {
+      "name": "City Tours",
+      "image": "BsBuildings",
+      "duration": 10,
+      "active": 1
+    },
+    {
+      "name": "Beaches",
+      "image": "TbBeach",
+      "duration": 8,
+      "active": 1
+    },
+    {
+      "name": "Boat Tours",
+      "image": "TbSailboat",
+      "duration": 12,
+      "active": 1
+    },
+    {
+      "name": "Adventures",
+      "image": "TbEyeSearch",
+      "duration": 15,
+      "active": 1
+    },
+    {
+      "name": "Food",
+      "image": "CiForkAndKnife",
+      "duration": 6,
+      "active": 1
+    },
+    {
+      "name": "Hiking",
+      "image": "TbMountain",
+      "duration": 14,
+      "active": 1
+    }
+  ]
+  
