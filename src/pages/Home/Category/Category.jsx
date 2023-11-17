@@ -10,13 +10,16 @@ const Category = () => {
         .then(data => setCategories(data))
     }, [])
     return (
-        <div className='w-10/12 mx-auto text-center my-20'>
-            <SectionTitle heading="Browse By Category" subheading = "Pick A Tour Type"></SectionTitle>
-            <div className="grid md:grid-cols-6 grid-cols-2">
-                {
-                    categories.map(category => <OneCate key = {category._id} 
-                        category ={category}></OneCate>)
-                }
+        <div className='bg-slate-100 py-20 rounded-lg'>
+
+            <div className='w-10/12 mx-auto text-center b'>
+                <SectionTitle heading="Browse By Category" subheading = "Pick A Tour Type"></SectionTitle>
+                <div className="grid md:grid-cols-6 grid-cols-2 mt-10 gap-4">
+                    {
+                        categories.map(category => <OneCate key = {category._id} 
+                            category ={category}></OneCate>)
+                    }
+                </div>
             </div>
         </div>
     );
