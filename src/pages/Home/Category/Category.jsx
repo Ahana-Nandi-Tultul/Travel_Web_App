@@ -12,7 +12,7 @@ const Category = () => {
     return (
         <div className='bg-slate-100 py-20 rounded-lg'>
 
-            <div className='w-10/12 mx-auto text-center b'>
+            <div className='w-10/12 mx-auto text-center'>
                 <SectionTitle heading="Browse By Category" subheading = "Pick A Tour Type"></SectionTitle>
                 <div className="grid md:grid-cols-6 grid-cols-2 mt-10 gap-4">
                     {
