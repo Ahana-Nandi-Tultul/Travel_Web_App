@@ -5,7 +5,7 @@ import { CiForkAndKnife } from 'react-icons/ci';
 import { motion } from "framer-motion";
 
 const OneCate = ({category}) => {
-    console.log(category);
+    //console.log(category);
     const {image, name, duration} = category;
     return (
         <motion.div

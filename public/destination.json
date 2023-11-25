@@ -1,0 +1,189 @@
+[
+    {
+      "name": "Cox's Bazar",
+      "front-image": "https://images.unsplash.com/flagged/photo-1566028658087-d725a402df80?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "big-image": "https://images.unsplash.com/photo-1587222318667-31212ce2828d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "images": [
+        "https://images.unsplash.com/photo-1509233725247-49e657c54213?q=80&w=1498&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1619177383949-f03975e50b19?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1567766741121-2b0ffc89c1dc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1631934957959-c7bd45b7ca8a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1635776610317-bdbaae240bfd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "country": "Bangladesh",
+      "language": "Bengali",
+      "currency": "Bangladeshi Taka (BDT)",
+      "area": "6,833 sq km",
+      "population": "166 million",
+      "time-zone": "UTC+6:00",
+      "time-to-travel": ["November", "December", "January", "February"],
+      "about": "Cox's Bazar, located in the southeastern part of Bangladesh, is not only renowned for having the longest natural sea beach in the world, stretching over 120 kilometers, but also offers a captivating blend of natural beauty and cultural richness. The town is a haven for beach lovers, attracting tourists with its vast sandy shores and azure waters. Beyond the beach, visitors can explore attractions such as Himchari National Park, known for its biodiversity, and Inani Beach, offering a more secluded and serene environment. The coastal town provides a perfect setting for relaxation, with its gentle waves, scenic views, and vibrant local culture. The bustling marketplaces and delicious seafood further enhance the overall experience, making Cox's Bazar a must-visit destination for those seeking tranquility amidst nature's wonders."
+    },
+    {
+      "name": "Sundarbans Mangrove Forest",
+      "front-image": "https://images.unsplash.com/photo-1496060169243-453fde45943b?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "big-image": "https://images.unsplash.com/photo-1519821172144-4f87d85de2a1?q=80&w=1368&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "images": [
+        "https://images.unsplash.com/photo-1500463959177-e0869687df26?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1549249855-5f96b3b2c291?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1598304205498-cf0a6c6434f4?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1603293000399-9d6a8fdbe44e?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "country": "Bangladesh",
+      "language": "Bengali",
+      "currency": "Bangladeshi Taka (BDT)",
+      "area": "10,000 sq km",
+      "population": "N/A",
+      "time-zone": "UTC+6:00",
+      "time-to-travel": ["December", "January", "February"],
+      "about": "The Sundarbans, located in the southwestern part of Bangladesh, is the largest mangrove forest in the world and a UNESCO World Heritage Site. Spanning over 10,000 square kilometers, this unique ecosystem is a treasure trove of biodiversity and a crucial habitat for the Bengal tiger, spotted deer, crocodiles, and various bird species. The intricate network of waterways and lush greenery creates a mesmerizing landscape, best explored through boat tours that navigate the meandering rivers and estuaries. Beyond its scenic beauty, the Sundarbans plays a vital role in maintaining ecological balance, protecting the coastline from natural disasters, and sustaining the livelihoods of local communities. A visit to the Sundarbans offers not only a glimpse into nature's wonders but also an opportunity to appreciate the delicate interplay between land and water in this enchanting mangrove forest."
+    },
+    {
+      "name": "Srimangal",
+      "front-image": "https://images.unsplash.com/photo-1686651452430-09d14e313868?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "big-image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/9f/59/66/caption.jpg?w=1200&h=-1&s=1",
+      "images": [
+        "https://images.unsplash.com/photo-1629236020112-aa334cf284d3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1634962598605-5f238db450d7?q=80&w=1475&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1650719101488-d788584eeb00?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1650719101762-24ce86d37331?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1617990098736-a59f7fe70f2d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "country": "Bangladesh",
+      "language": "Bengali",
+      "currency": "Bangladeshi Taka (BDT)",
+      "area": "452 sq km",
+      "population": "N/A",
+      "time-zone": "UTC+6:00",
+      "time-to-travel": ["September", "October", "November", "December", "January", "February"],
+      "about": "Srimangal, often referred to as the 'Tea Capital of Bangladesh,' is a picturesque town nestled in the northeastern part of the country. Boasting lush tea gardens, scenic landscapes, and a tranquil environment, Srimangal is a paradise for nature enthusiasts and tea connoisseurs alike. The town is home to numerous tea estates, where visitors can witness the tea cultivation process, from plucking to processing. Beyond the tea gardens, Lawachara National Park is a biodiversity hotspot, offering opportunities to spot various species of wildlife and colorful birds. Srimangal's vibrant cultural scene, with its indigenous communities and traditional festivals, adds a unique charm to the overall experience. Whether exploring the serene tea plantations or immersing oneself in the rich biodiversity of Lawachara, Srimangal promises a refreshing retreat for those seeking a harmonious blend of nature and culture."
+    },
+    {
+      "name": "Rangamati",
+      "front-image": "https://images.unsplash.com/photo-1600099492237-711d9141b2f7?q=80&w=1466&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "big-image": "https://images.unsplash.com/photo-1649920209973-d2f09b3be005?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "images": [
+        "rangamati1.jpg",
+        "rangamati2.jpg",
+        "rangamati3.jpg"
+      ],
+      "country": "Bangladesh",
+      "language": "Bengali",
+      "currency": "Bangladeshi Taka (BDT)",
+      "area": "6,116 sq km",
+      "population": "N/A",
+      "time-zone": "UTC+6:00",
+      "time-to-travel": ["October", "November", "December", "January", "February", "March"],
+      "about": "Rangamati, nestled in the Chittagong Hill Tracts, is a captivating destination known for its breathtaking landscapes, serene lakes, and vibrant indigenous culture. The town is set around the beautiful Kaptai Lake, offering boat rides with panoramic views of the surrounding hills and lush greenery. Rangamati is home to diverse indigenous communities, each contributing to the rich tapestry of local traditions and customs. The Chakma Rajbari, a traditional palace, reflects the architectural and cultural heritage of the region. The hilltops adorned with Buddhist temples and monasteries add a spiritual dimension to the scenic beauty. Visitors to Rangamati can engage in activities such as hiking, exploring tribal villages, and enjoying the tranquility of the hillside. With its unique blend of natural wonders and cultural diversity, Rangamati invites travelers to experience the charm of the Chittagong Hill Tracts in all its splendor."
+    },
+    {
+      "name": "Khulna - Bagerhat",
+      "front-image": "khulna-bagerhat-front.jpg",
+      "big-image": "khulna-bagerhat-big.jpg",
+      "images": [
+        "khulna-bagerhat1.jpg",
+        "khulna-bagerhat2.jpg",
+        "khulna-bagerhat3.jpg"
+      ],
+      "country": "Bangladesh",
+      "language": "Bengali",
+      "currency": "Bangladeshi Taka (BDT)",
+      "area": "4,389 sq km",
+      "population": "N/A",
+      "time-zone": "UTC+6:00",
+      "time-to-travel": ["October", "November", "December", "January", "February", "March"],
+      "about": "Khulna and Bagerhat together offer a fascinating exploration of Bangladesh's southwestern region, combining urban vibrancy with historical richness. Khulna, a bustling city on the banks of the Rupsha River, is a gateway to the Sundarbans and the starting point for many memorable boat tours. The city's markets, cultural events, and lively atmosphere provide a taste of modern Bangladeshi life. Bagerhat, a historic city nearby, is renowned for the UNESCO-listed Sixty Dome Mosque, an architectural masterpiece from the medieval period. The mosque complex, along with other ancient structures like the Nine Dome Mosque and the historic city wall, transports visitors back in time. The blend of urban energy in Khulna and the historical wonders of Bagerhat creates a diverse and enriching travel experience, making this region a must-visit for those interested in both contemporary culture and the heritage of Bangladesh."
+    },
+    {
+      "name": "Dhaka",
+      "front-image": "dhaka-front.jpg",
+      "big-image": "dhaka-big.jpg",
+      "images": [
+        "dhaka1.jpg",
+        "dhaka2.jpg",
+        "dhaka3.jpg"
+      ],
+      "country": "Bangladesh",
+      "language": "Bengali",
+      "currency": "Bangladeshi Taka (BDT)",
+      "area": "306 sq km",
+      "population": "N/A",
+      "time-zone": "UTC+6:00",
+      "time-to-travel": ["October", "November", "December", "January", "February", "March"],
+      "about": "Dhaka, the vibrant capital of Bangladesh, is a city of contrasts, blending modernity with a rich history that dates back centuries. As one of the most populous cities in the world, Dhaka pulsates with energy, offering a diverse array of experiences. The city is home to architectural gems such as the Lalbagh Fort, Ahsan Manzil, and the National Parliament House. The bustling streets and markets showcase the daily life and cultural vibrancy of the Bangladeshi people. Dhaka is a melting pot of traditions, where historic mosques and temples coexist with contemporary art galleries and shopping malls. The culinary scene is equally diverse, featuring a range of flavors from traditional Bengali dishes to international cuisines. Exploring Dhaka means immersing oneself in the dynamic essence of Bangladesh, from its historical roots to its modern aspirations."
+    },
+    {
+      "name": "Saint Martin's Island",
+      "front-image": "stmartinsisland-front.jpg",
+      "big-image": "stmartinsisland-big.jpg",
+      "images": [
+        "stmartinsisland1.jpg",
+        "stmartinsisland2.jpg",
+        "stmartinsisland3.jpg"
+      ],
+      "country": "Bangladesh",
+      "language": "Bengali",
+      "currency": "Bangladeshi Taka (BDT)",
+      "area": "8.73 sq km",
+      "population": "N/A",
+      "time-zone": "UTC+6:00",
+      "time-to-travel": ["November", "December", "January", "February"],
+      "about": "Saint Martin's Island, situated in the Bay of Bengal, is a tropical paradise known for its pristine beaches, crystal-clear waters, and vibrant marine life. As the only coral island in Bangladesh, it offers a unique blend of natural beauty and tranquility. The island is a haven for beach lovers and water sports enthusiasts, with opportunities for snorkeling, scuba diving, and boat excursions. The turquoise blue waters surround the island, creating a mesmerizing contrast with the golden sandy beaches. Saint Martin's Island is also a great place for seafood lovers, with a variety of fresh catches available. Away from the hustle and bustle, the island provides a serene escape, making it an ideal destination for those seeking relaxation in a tropical paradise."
+    },
+    {
+      "name": "Bandarban",
+      "front-image": "bandarban-front.jpg",
+      "big-image": "bandarban-big.jpg",
+      "images": [
+        "bandarban1.jpg",
+        "bandarban2.jpg",
+        "bandarban3.jpg"
+      ],
+      "country": "Bangladesh",
+      "language": "Bengali",
+      "currency": "Bangladeshi Taka (BDT)",
+      "area": "4,479 sq km",
+      "population": "N/A",
+      "time-zone": "UTC+6:00",
+      "time-to-travel": ["October", "November", "December", "January", "February", "March"],
+      "about": "Bandarban, nestled in the Chittagong Hill Tracts, is a mesmerizing destination known for its lush green hills, vibrant indigenous culture, and adventurous trekking trails. The town is surrounded by mist-covered mountains and dense forests, providing a scenic backdrop for exploration. Trekking enthusiasts can embark on journeys to iconic spots like Nafakhum Waterfall, Boga Lake, and the famous Nilgiri Hills. Bandarban is home to diverse indigenous communities, each with its own unique traditions and customs. The Shaila Propat waterfall and the Buddha Dhatu Jadi, the largest Buddhist temple in Bangladesh, are among the must-visit attractions. Bandarban offers a perfect blend of natural beauty and cultural diversity, making it an ideal destination for those seeking both adventure and tranquility."
+    },
+    {
+      "name": "Kuakata",
+      "front-image": "kuakata-front.jpg",
+      "big-image": "kuakata-big.jpg",
+      "images": [
+        "kuakata1.jpg",
+        "kuakata2.jpg",
+        "kuakata3.jpg"
+      ],
+      "country": "Bangladesh",
+      "language": "Bengali",
+      "currency": "Bangladeshi Taka (BDT)",
+      "area": "N/A",
+      "population": "N/A",
+      "time-zone": "UTC+6:00",
+      "time-to-travel": ["November", "December", "January", "February"],
+      "about": "Kuakata, often referred to as the 'Daughter of the Sea,' is a charming beach town located on the southernmost tip of Bangladesh. Famous for its panoramic view of both sunrise and sunset over the Bay of Bengal, Kuakata is a haven for nature lovers and beach enthusiasts. The wide sandy beach, stretching for miles, invites visitors to relax by the gentle waves and enjoy the breathtaking views of the horizon. Kuakata is unique in that it offers the rare spectacle of observing the sunrise and sunset from the same spot, making it a sought-after destination for photographers and romantics alike. The beach town also provides opportunities for water sports, fishing, and exploring nearby Buddhist temples, adding cultural richness to the coastal experience. Kuakata, with its tranquil ambiance and natural beauty, is an ideal getaway for those seeking a peaceful retreat by the sea."
+    },
+    {
+      "name": "Rajshahi",
+      "front-image": "rajshahi-front.jpg",
+      "big-image": "rajshahi-big.jpg",
+      "images": [
+        "rajshahi1.jpg",
+        "rajshahi2.jpg",
+        "rajshahi3.jpg"
+      ],
+      "country": "Bangladesh",
+      "language": "Bengali",
+      "currency": "Bangladeshi Taka (BDT)",
+      "area": "96.37 sq km",
+      "population": "N/A",
+      "time-zone": "UTC+6:00",
+      "time-to-travel": ["October", "November", "December", "January", "February", "March"],
+      "about": "Rajshahi, known as the 'Silk City' and 'Education City,' is a vibrant and historically rich destination in Bangladesh. Situated on the northern banks of the Padma River, Rajshahi is celebrated for its silk industry, mangoes, and cultural heritage. The city is home to several archaeological and historical sites, including the Varendra Research Museum, where artifacts from ancient civilizations are preserved. The lush greenery of the Varendra University campus and the serene ambiance of the Padma River add to the city's charm. Rajshahi is also a gateway to explore nearby attractions like Puthia Temple Complex and the ancient city of Mahasthangarh. The local cuisine, featuring Rajshahi silk, mangoes, and sweets, provides a delightful culinary experience. Rajshahi invites travelers to discover its cultural treasures and embrace the warmth of its people in a city where history, education, and nature converge."
+    }
+  ]
+  

@@ -1,6 +1,6 @@
 import React from 'react';
-import image1 from '../../../assets/Banner/banner_3.jpg';
-import image2 from '../../../assets/Banner/banner_1.jpg';
+import image1 from '../../../assets/banner/banner_3.jpg';
+import image2 from '../../../assets/banner/banner_1.jpg';
 import './Banner.css';
 import { useForm } from 'react-hook-form';
 
