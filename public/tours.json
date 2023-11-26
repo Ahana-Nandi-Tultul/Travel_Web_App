@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Adventure in the Mountains",
+    "destination": "Cox's Bazar",
+    "rating": 4.5,
+    "price": 1200,
+    "dueDate": "2023-12-31",
+    "image": "https://images.unsplash.com/photo-1585993573411-b6eaed50db98?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "title": "Exploring Ancient Ruins",
+    "destination": "Sundarbans",
+    "rating": 4.2,
+    "price": 900,
+    "dueDate": "2023-05-15",
+    "image": "https://images.unsplash.com/photo-1612536090790-680138b3f2cd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "title": "City Lights Tour",
+    "destination": "Dhaka",
+    "rating": 4.8,
+    "price": 800,
+    "dueDate": "2023-12-01",
+    "image": "https://images.unsplash.com/photo-1624395149011-470cf6f6ec02?q=80&w=1651&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "title": "Beach Bliss Getaway",
+    "destination": "Kuakata",
+    "rating": 4.6,
+    "price": 1500,
+    "dueDate": "2023-07-20",
+    "image": "https://images.unsplash.com/photo-1611563780943-76813488c06f?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "title": "Serene River Retreat",
+    "destination": "Srimangal",
+    "rating": 4.4,
+    "price": 1000,
+    "dueDate": "2023-08-15",
+    "image": "https://images.unsplash.com/photo-1651911176615-578eace55557?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "title": "Historical Landmarks Expedition",
+    "destination": "Rajshahi",
+    "rating": 4.3,
+    "price": 1100,
+    "dueDate": "2023-04-10",
+    "image": "https://www.bssnews.net/assets/news_photos/2023/01/25/image-107085-1674626638.jpg"
+  },
+  {
+    "title": "Hill Station Retreat",
+    "destination": "Bandarban",
+    "rating": 4.9,
+    "price": 1300,
+    "dueDate": "2023-06-05",
+    "image": "https://t4.ftcdn.net/jpg/04/94/05/69/360_F_494056979_PyeIPyJMSMtaggCxaKeeuqZAHfa3wygu.jpg"
+  },
+  {
+    "title": "Cultural Heritage Tour",
+    "destination": "Khulna",
+    "rating": 4.7,
+    "price": 950,
+    "dueDate": "2023-10-25",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Durbar_Bangla_at_kuet.jpg"
+  },
+  {
+    "title": "Tropical Paradise Experience",
+    "destination": "Saint Martin's Island",
+    "rating": 4.5,
+    "price": 1400,
+    "dueDate": "2023-11-15",
+    "image": "https://images.unsplash.com/photo-1679825107279-e47a9836f31e?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+  },
+  {
+    "title": "Jungle Safari Adventure",
+    "destination": "Bagerhat",
+    "rating": 4.1,
+    "price": 850,
+    "dueDate": "2023-09-01",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Sixty_Dome_Mosque%2CBagerhat.jpg"
+  }
+]

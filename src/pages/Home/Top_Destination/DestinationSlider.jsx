@@ -51,7 +51,7 @@ const DestinationSlider = ({destinations}) => {
           <SwiperSlide key={index}>
 
             <div className={`destination-card h-[500px] ${(index % 2) == 0 ? "" : "mt-10"}`}>
-              <img src={destination['front-image']} alt={destination.name} className='h-[400px]'/>
+              <img src={destination['front-image']} alt={destination.name} className='h-[400px] w-full'/>
               <h3 className='font-bold text-lg mt-3 mx-5 text-black'>{destination.name}</h3>
             </div>
           </SwiperSlide>
