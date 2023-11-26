@@ -4,6 +4,7 @@ import Category from '../Category/Category';
 import Contact from '../Contact/Contact';
 import Top_Destination from '../Top_Destination/Top_Destination';
 import Featured from '../Featured/Featured';
+import Ready_Travel from '../Ready_Travel/Ready_Travel';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Contact></Contact>
             <Top_Destination></Top_Destination>
             <Featured></Featured>
+            <Ready_Travel></Ready_Travel>
         </div>
     );
 };

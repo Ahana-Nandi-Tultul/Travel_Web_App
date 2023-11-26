@@ -52,7 +52,7 @@ const FeaturedSlider = ({tours}) => {
           {tours.map((tour, index) => (
             <SwiperSlide key={index}>
   
-              <div className={`destination-card h-[600px] bg-white`}>
+              <div className={`destination-card h-[630px] bg-white`}>
                 <img src={tour['image']} alt={tour.title} className='h-[400px] w-full'/>
                 <h3 className='font-bold text-lg mt-3 mx-5 text-slate-400'>{tour.destination}</h3>
                 <h3 className='font-bold text-lg mt-1 mx-5 text-black'>{tour.title}</h3>
