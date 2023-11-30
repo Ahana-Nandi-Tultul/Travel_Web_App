@@ -5,6 +5,8 @@ import Contact from '../Contact/Contact';
 import Top_Destination from '../Top_Destination/Top_Destination';
 import Featured from '../Featured/Featured';
 import Ready_Travel from '../Ready_Travel/Ready_Travel';
+import Travel_Guide from '../Travel_Guide/Travel_Guide';
+import Footer from '../../Footer/Footer';
 
 const Home = () => {
     return (
@@ -15,6 +17,8 @@ const Home = () => {
             <Top_Destination></Top_Destination>
             <Featured></Featured>
             <Ready_Travel></Ready_Travel>
+            <Travel_Guide></Travel_Guide>
+            <Footer></Footer>
         </div>
     );
 };
