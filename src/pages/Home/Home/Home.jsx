@@ -6,7 +6,7 @@ import Top_Destination from '../Top_Destination/Top_Destination';
 import Featured from '../Featured/Featured';
 import Ready_Travel from '../Ready_Travel/Ready_Travel';
 import Travel_Guide from '../Travel_Guide/Travel_Guide';
-import Footer from '../../Footer/Footer';
+import Footer from '../../shared/Footer/Footer';
 
 const Home = () => {
     return (

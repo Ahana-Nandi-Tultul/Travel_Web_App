@@ -6,7 +6,7 @@ import Home from "../pages/Home/Home/Home";
 import Login from "../pages/Login/Login";
 import Signup from "../pages/Signup/Signup";
 import About from "../pages/About/About";
-import Destination from "../pages/Destination/Destination";
+import Destination from "../pages/Destination/Destination/Destination";
 const routes = createBrowserRouter([
     {
         path: "/",

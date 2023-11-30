@@ -1,5 +1,5 @@
 import React from 'react';
-import logo2 from '../../assets/logo2.png';
+import logo2 from '../../../assets/logo2.png';
 import './Footer.css';
 import { FaFacebookF, FaTwitter, FaGooglePlusG, FaFacebookMessenger } from "react-icons/fa";
 import moment from 'moment/moment';
