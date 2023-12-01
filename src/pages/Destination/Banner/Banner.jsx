@@ -4,7 +4,6 @@ import { Parallax } from 'react-parallax';
 const Banner = ({image, dir, subdir, title}) => {
     return (
         <div>
-
             <Parallax bgImage={image} strength={400}>
                 <div className='bg-black bg-opacity-70 h-[300px]'>
                     <div className='w-10/12 mx-auto flex items-center h-full'>
